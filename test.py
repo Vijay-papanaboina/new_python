@@ -23,9 +23,8 @@ class BankAccount:
     def get_balance(self):
         return f"{self.__balance} Remaining"
 
-# Usage
 account = BankAccount("John Doe", 100)
 account.deposit(50)
-account.withdraw(10)       # Withdrew $300. Remaining balance: $1200
-print(account.get_balance())  # Output: 1200
+account.withdraw(10)
+print(account.get_balance())
 print(account.withdraw(100))
