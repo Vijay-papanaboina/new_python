@@ -1,6 +1,5 @@
 class BankAccount:
     def __init__(self, account_holder, initial_balance):
-        # Private attribute (not directly accessible from outside)
         self.__balance = initial_balance
         self.account_holder = account_holder
 
